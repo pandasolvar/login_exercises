@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+body {
+        font-family:'Roboto Mono', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        height: 100%;
+        padding: 0;
+        background-color: #34B77B;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1cbcf2), color-stop(1, #054c70));
+        background: -webkit-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+        background: -moz-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+        background: -o-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+        background: -ms-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+        background: linear-gradient(to top, #1cbcf2 0%, #054c70 100%);
+        color: #ffffff;
+  }
+  
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-flow: column;
+}
+
+.form-group {
+    position: relative;
+    margin: 12px 0;
+    color: #ffe100;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+
+button {
+    color: #0014aa;
+    background-color: #00052a;
+  color: #fff;
+  display: inline-block;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  transition: background-color 0.3s ease-in-out;
+}
+.form label {
+    position: left;
+}
