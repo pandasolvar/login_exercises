@@ -50,3 +50,7 @@ button {
 .form label {
     position: left;
 }
+
+.submit button {
+    position: center;
+}

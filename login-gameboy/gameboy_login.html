@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Login</title>
     <link rel="stylesheet" href="./gameboy.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    
 </head>
-
 <body>
-    <form>
+    <form id="loginForm">
         <div class="flex container">
             <div class="form-group">
                 <label class="form-label">Username</label>
-                <input type="email" placeholder="Username"> 
+                <input type="email" id="email" placeholder="Username"> 
             </div>
 
             <div class="form-group">
                 <label class="form-label">Password</label>
-                <input type="password" placeholder="Password"> 
-                <label class="form-label"><lightning-input 
-                  type="password" 
-                  label="Enter your password" 
-                  name="input1"  
-                ></lightning-input></label>              
+                <input type="password" id="password" placeholder="Password"> 
             </div>
             
             <div class="submit-button">
-                <button>Submit</button>
+                <button type="button" id="submitBtn">Submit</button>
             </div>
-
+            
+            <div id="loginWithSocial">
+                <button type="button" id="googleLoginBtn">Login with Google</button>
+                <button type="button" id="facebookLoginBtn">Login with Facebook</button>
+            </div>
+            
+            <div id="registerWithEmail">
+                <button type="button" id="registerWithEmailBtn">Register with E-mail</button>
+            </div>
+        </div>
     </form>
-    
-    
+    <script src="./gameboy.js"></script>
 </body>
-
 </html>
