@@ -12,4 +12,4 @@ Responsive design for mobile and desktop devices.
 
 ## Usage
 
-To use this template, simply copy and paste the code into your IDE of choice and edit accordingly. The login form can be tested using the email address "test@example.com" and password "password".
+To use this template, simply copy and paste the code into your IDE of choice and edit accordingly.
